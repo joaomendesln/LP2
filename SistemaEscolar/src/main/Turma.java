@@ -14,4 +14,8 @@ public class Turma {
 	public double calcularMedia() {
 		return (aluno1.calcularMedia() + aluno2.calcularMedia() + aluno3.calcularMedia()) / 3;
 	}
+
+	public double notaTotal() {
+		return (aluno1.calcularMedia() + aluno2.calcularMedia() + aluno3.calcularMedia());
+	}
 }

@@ -12,4 +12,8 @@ public class Aluno {
 	public double calcularMedia() {
 		return (prova1.calcularNotaTotal() + prova2.calcularNotaTotal()) / 2;
 	}
+
+	public double calcularMediaPonderada() {
+		return (prova1.calcularNotaTotal() + (prova2.calcularNotaTotal()*2)) / 3;
+	}
 }
